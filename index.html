@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     
     <!-- Primary Meta Tags -->
     <title>PolySite Industries | Premium PET, PP & PC Bottles</title>
@@ -33,11 +33,21 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
-    <!-- CSS Dependencies -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- CSS Dependencies - Libraries First -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS Last -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -66,16 +76,199 @@
         ]
     }
     </script>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <!-- Your body content will go here -->
+    
+    <!-- HERO SECTION / SECTION1 -->
+    <section class="section1">
+        <div class="container">
+            <div class="owl-carousel owl-theme hero-carousel">
+      
+                <!-- Slide 1 -->
+                <div class="container1">
+                    <div class="text1">
+                        <h1>Innovative Packaging Solutions for Every Industry</h1>
+                        <p>At PolySite, we manufacture and supply high-quality PET, PP, and PC bottles for water, beverages, pharmaceuticals, cosmetics, and household products. Our bottles are designed for clarity, strength, and sustainability, meeting the diverse needs of businesses worldwide.</p>
+                        <div class="btncontainer">
+                            <button class="btn">View Products</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="img1">
+                        <img src="images/pic1.png" alt="Innovative packaging solutions">
+                    </div>
+                </div>
 
-    <!-- Initialize AOS and Slick -->
+                <!-- Slide 2 -->
+                <div class="container1">
+                    <div class="text1">
+                        <h1>Pure Design. Perfect Packaging.</h1>
+                        <p>Discover durable and eco-friendly PET bottles built to deliver purity, safety, and style for your water brand.</p>
+                        <div class="btncontainer">
+                            <button class="btn">View Products</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="img1">
+                        <img src="images/pic2.png" alt="Pure design packaging">
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="container1">
+                    <div class="text1">
+                        <h1>Trusted by Leading Brands Nationwide</h1>
+                        <p>With over 1.2 million bottles produced and 80+ satisfied partners, PolySite stands for reliability and innovation.</p>
+                        <div class="btncontainer">
+                            <button class="btn">View Products</button>
+                            <button class="btn">Contact Us</button>
+                        </div>
+                    </div>
+                    <div class="img1">
+                        <img src="images/pic3.png" alt="Trusted brand partners">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- partner section -->
+   <section class="brand-section">
+  <h2>Trusted by Leading Brands</h2>
+
+  <div class="swiper brandSwiper">
+    <div class="swiper-wrapper">
+      <!-- Each brand slide -->
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic18.png" alt="Nike logo" class="brand-logo">
+        </div>
+        <span>Nike</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic14.png" alt="Coca-Cola logo" class="brand-logo">
+        </div>
+        <span>Coca-Cola</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic13.jpg" alt="Apple logo" class="brand-logo">
+        </div>
+        <span>Apple</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic16.jpg" alt="Unilever logo" class="brand-logo">
+        </div>
+        <span>Unilever</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic17.png" alt="Pepsi logo" class="brand-logo">
+        </div>
+        <span>Pepsi</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic15.png" alt="Nestlé logo" class="brand-logo">
+        </div>
+        <span>Nestlé</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic18.png" alt="Nike logo" class="brand-logo">
+        </div>
+        <span>Nike</span>
+      </div>
+    
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic18.png" alt="Nike logo" class="brand-logo">
+        </div>
+        <span>Nike</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic14.png" alt="Coca-Cola logo" class="brand-logo">
+        </div>
+        <span>Coca-Cola</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic13.jpg" alt="Apple logo" class="brand-logo">
+        </div>
+        <span>Apple</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic16.jpg" alt="Unilever logo" class="brand-logo">
+        </div>
+        <span>Unilever</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic17.png" alt="Pepsi logo" class="brand-logo">
+        </div>
+        <span>Pepsi</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic15.png" alt="Nestlé logo" class="brand-logo">
+        </div>
+        <span>Nestlé</span>
+      </div>
+      <div class="swiper-slide brand-item">
+        <div class="img2">
+          <img src="images/pic18.png" alt="Nike logo" class="brand-logo">
+        </div>
+        <span>Nike</span>
+      </div>
+    
+    </div>
+  </div>
+   </section>
+
+   <!-- About Section -->
+    <section class="section2">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="container2">
+                <div class="text2">
+                    <p>PolySite designs and manufactures high-quality PET, PP, and PC bottles for industries like water, pharmaceuticals, cosmetics, and household products. With 1.2 million bottles produced and 80+ companies served, we combine precision, durability, and innovation to deliver reliable, sustainable, and customizable packaging solutions.</p>
+                </div>
+                <img3>
+                    <img src="/images/polysite contruction img.jpg" alt="">
+                </img3>
+            </div>
+        <section class="counter-section">
+            <div class="counter-container">
+                <div class="counter-box">
+                <h2 class="counter" data-target="1200000">0</h2>
+                <p>Bottles Produced</p>
+                </div>
+
+                <div class="counter-box">
+                <h2 class="counter" data-target="80">0</h2>
+                <p>Companies Served</p>
+                </div>
+            </div>
+         </section>
+
+        </div>
+    </section>
+
+
+  
+
+    <!-- Scripts - Moved to bottom for better performance -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.0/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Initialize AOS and Owl Carousel -->
     <script>
         $(document).ready(function() {
             // Initialize AOS
@@ -86,22 +279,51 @@
                 AOS.refresh();
             });
 
-            // Initialize Slick Slider
-            $('.serviceslider').slick({
-                dots: true,
-                infinite: true,
-                speed: 1000,
-                fade: true,
-                cssEase: 'linear',
-                arrows: false,
+            // Initialize Owl Carousel
+            $('.hero-carousel').owlCarousel({
+                items: 1,
+                loop: true,
                 autoplay: true,
-                autoplaySpeed: 3000,
-                pauseOnHover: true,
-                pauseOnFocus: true,      
-                pauseOnDotsHover: true, 
-                swipe: true
+                autoplayTimeout: 4000,
+                autoplayHoverPause: false,
+                smartSpeed: 800,
+                // animateOut: 'fadeOut',
+                // animateIn: 'fadeIn',
+                nav: false,
+                dots: true,
+                margin: 50,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
             });
         });
+   
+  const brandSwiper = new Swiper(".brandSwiper", {
+    slidesPerView: 5,
+    spaceBetween: 40,
+    loop: true,
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    speed: 4000, // controls scroll speed
+    allowTouchMove: false, // prevents dragging
+    breakpoints: {
+      320: { slidesPerView: 2 },
+      768: { slidesPerView: 4 },
+      1024: { slidesPerView: 5 },
+    }
+  });
+
+    
     </script>
 </body>
 </html>

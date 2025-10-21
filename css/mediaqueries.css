@@ -1,0 +1,81 @@
+
+
+/* Tablet breakpoint */
+@media screen and (max-width: 1024px) {
+  .section1 {
+    padding: 60px 0;
+    min-height: 90vh;
+  }
+  .text1 {
+    width: 55%;
+  }
+  .img1 {
+    width: 45%;
+    height: 60vh;
+  }
+  .text1 h1 {
+    font-size: 2.4rem;
+  }
+  .text1 p {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .section1 {
+    padding: 30px 0;
+    height: 90vh;
+  }
+  .container1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+  .text1 {
+    text-align: center;
+     display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  }
+  .text1 h1 {
+    font-size: 1.3rem;
+    padding-top: 50px;
+  }
+  .text1 p {
+    font-size: 0.7rem;
+  }
+  .img1 {
+     display: none;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .btncontainer .btn{
+    /* padding: 10px 50px; */
+    width: 100%;
+  }
+
+  /* parter section */
+    .brand-logo {
+        width: 80px;
+        height: auto;
+    }
+    .brand-section h2 {
+      margin-bottom: 40px;
+      font-size: 1rem;
+}
+ 
+}
+
+/* Utility: keep hero content readable over backgrounds */
+/* .section1 .container1 {
+  position: relative;
+} */
+
