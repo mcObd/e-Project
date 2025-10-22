@@ -173,3 +173,67 @@ p,button{
   padding: 20px 0;
 }
 
+/* section 2 */
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+.section2 .container h2 {
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.text2{
+  width: 45%;
+  margin-top: 0;
+}
+.text2 p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+.img3 {
+  width: 45%;
+  height: 60vh;
+  border-radius: 10px;
+}
+.img3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    border-radius: 10px;
+}
+
+/* counter section */
+.counter-container {
+  width: 50%;
+  display: flex;
+  gap: 5px;
+}
+.counter-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+.counter-box h2 {
+  font-size: 2.5rem;
+  color: black;
+}
+.counter-box p {
+  font-size: 1rem;
+  color: black;
+}

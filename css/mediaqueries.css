@@ -62,7 +62,7 @@
     width: 100%;
   }
 
-  /* parter section */
+  /* partner section */
     .brand-logo {
         width: 80px;
         height: auto;
@@ -71,6 +71,48 @@
       margin-bottom: 40px;
       font-size: 1rem;
 }
+
+/* section 2 */
+.container2 {
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
 }
+.text2{
+  width: 100%;
+}
+.img3 {
+  width: 100%;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.counter-container {
+  width: 100%;
+  gap: 10px;
+}
+.counter-box {
+  padding-top: 10%;
+  width: 100%;
+  gap: 0;
+}
+.section2 .container h2 {
+  font-size: 1.5rem;
+}
+.text2 p {
+  font-size: 0.7rem;
+  line-height: 1.6;
+  color: #555;
+}
+.counter-box h2 {
+  font-size: 2rem;
+}
+.counter-box p {
+  font-size: 0.7rem;
+}
+
+
+}
+
 
 
