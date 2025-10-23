@@ -237,3 +237,366 @@ p,button{
   font-size: 1rem;
   color: black;
 }
+
+/* section 3 */
+.section3 {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .container {
+  border-right: 3px solid grey;
+}
+
+.text3 {
+  text-align: left;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.text3 h2 {
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  color: #333;
+}
+.text3 p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+.product-container {
+    padding-top: 5%;
+    width: 100%;
+    gap: 5%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.product_item {
+  border-radius: 15px;
+  max-width: 360px;
+  padding: 50px 10px 10px 10px;
+  height: 90vh;
+  position: relative;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.product_item:nth-of-type(1){
+   background: linear-gradient(to bottom, rgb(196, 226, 250), gray)
+}
+.product_item:nth-of-type(2){
+   background: linear-gradient(to bottom, gray, black)
+}
+.product_item:nth-of-type(3){
+   background: linear-gradient(to bottom,rgb(196, 250, 206), gray)
+}
+.product-text {
+  text-align: left;
+  width: 80%;
+
+}
+.product-text h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+.product-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+.product-text p:nth-child(2) {
+  color: #ffffff;
+}
+.img4 {
+  width: 50%;
+  height: 50%;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+.img4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+ .btncontainer2 {
+  margin-top: 30px;
+  width: 20%;
+}
+ .btncontainer2 .btn{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+ .btncontainer2 .btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/* Gallery Section Styles */
+.gallery-section {
+  margin-top: 10%;
+  background: linear-gradient(to bottom, white, gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.gallery-section .container {
+  border-right: 3px solid grey;
+}
+
+.gallery-header {
+  margin-bottom: 50px;
+}
+
+.gallery-header h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.gallery-header p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 350px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-10px);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  padding: 20px;
+  color: white;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+  transform: translateY(0);
+}
+
+.gallery-overlay h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gallery-overlay p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ACCORDION PAGE */
+
+/* FAQ Section Styles */
+.faq-section {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, gray, white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.faq-header h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.faq-header p {
+  font-size: 1rem;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+}
+
+.accordion-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordion-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.accordion-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.accordion-header span {
+  flex: 1;
+}
+
+.accordion-header i {
+  color: #333;
+  transition: transform 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.accordion-item.active .accordion-header i {
+  transform: rotate(45deg);
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 30px;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 300px;
+  padding-bottom: 20px;
+}
+
+.accordion-content p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .faq-header h1 {
+      font-size: calc(var(--LARGE_FONT) - 0.5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-section {
+      padding: 6rem 1.5rem;
+  }
+
+  .faq-header h1 {
+      font-size: calc(var(--LARGE_FONT) - 1rem);
+  }
+
+  .faq-header p {
+      font-size: calc(var(--DEFAULT_FONT) - 0.1rem);
+  }
+
+  .accordion-header {
+      font-size: calc(var(--DEFAULT_FONT) - 0.1rem);
+      padding: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-section {
+      padding: 4rem 1rem;
+  }
+
+  .faq-header h1 {
+      font-size: calc(var(--LARGE_FONT) - 1.5rem);
+  }
+
+  .faq-header p {
+      font-size: calc(var(--DEFAULT_FONT) - 0.2rem);
+  }
+
+  .accordion-header {
+      font-size: calc(var(--DEFAULT_FONT) - 0.2rem);
+      padding: 1rem;
+  }
+
+  .accordion-content p {
+      font-size: calc(var(--DEFAULT_FONT) - 0.2rem);
+  }
+}
+
+/* Add responsive padding */
+@media (max-width: 768px) {
+    .accordion-container {
+        width: 95%;
+    }
+    
+    .accordion-header,
+    .accordion-content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}

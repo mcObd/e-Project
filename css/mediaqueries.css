@@ -110,9 +110,90 @@
 .counter-box p {
   font-size: 0.7rem;
 }
+/* section 3 */
 
-
+.section3 {
+  padding-top: 10%;
 }
 
+.text3 {
+  text-align: left;
+  width: 100%;
+  gap: 10%;
+}
 
+.text3 h2 {
+  font-size: 1.5rem;
+}
+.text3 p {
+  font-size: 0.9rem;
+}
+.product-container {
+    display: flex;
+    padding-top: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.product_item {
+  width: 100%;
+  padding: 40px 10px 10px 10px;
+  height: 80vh;
+}
+ .btncontainer2 {
+  margin-top: 30px;
+  width: 40%;
+}
+  .btncontainer2 .btn{
+    padding: 10px;
+  }
+
+  /* Gallery Section Responsive */
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 15px;
+  }
+
+  .gallery-item {
+    height: 300px;
+  }
+
+  .gallery-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .gallery-header p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile breakpoint */
+@media screen and (max-width: 480px) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .gallery-item {
+    height: 250px;
+  }
+
+  .gallery-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .gallery-header p {
+    font-size: 0.8rem;
+  }
+
+  .gallery-overlay h3 {
+    font-size: 1.1rem;
+  }
+
+  .gallery-overlay p {
+    font-size: 0.8rem;
+  }
+}
 
